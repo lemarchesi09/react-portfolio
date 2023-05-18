@@ -28,3 +28,16 @@ h3{
     gap: 2rem;
     padding-top: 2rem;
 }
+.aboutCont__buttonCont{
+    width: 35%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3rem;
+}
+.btn{
+    width: 2rem;
+    height: 2rem;
+    border: 2px solid var(--main-light-color);
+    border-radius: 20px;
+    background-color: var(--lightYellow);
+}

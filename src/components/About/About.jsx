@@ -3,6 +3,7 @@ import MonitorIcon from "../../assets/icon-monitor.svg";
 import MobileIcon from "../../assets/icon-mobile.svg";
 import BrushIcon from "../../assets/icon-brush.svg";
 import ServiceCard from "../ServicesCard/ServiceCard";
+
 function About() {
   return (
     <section className="aboutCont">
@@ -15,6 +16,13 @@ function About() {
           <ServiceCard source={MobileIcon} title={"Responsive Design"} />
         </div>
       </div>
+      <div className="aboutCont__buttonCont">
+        <button onClick={()=> console.log('hello')} className="btn"></button>
+        <button className="btn"></button>
+        <button className="btn"></button>
+      </div>
+      <button>This is a button</button>
+
     </section>
   );
 }

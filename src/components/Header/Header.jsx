@@ -9,6 +9,8 @@ function Header() {
                 <img src={imgHero} alt=""/>
                 <p >I´m <span className='header__p--span'>Enzo Marchesi</span> , a <span className='header__p--span2'>Front End Developer</span>  based in Córdoba, ARG</p>
             </div>
+            <button className="btn" onClick={()=> console.log('hello')}>This is a Button</button>
+            
         </header>
     );
 }
